@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit -m "Binary Trees - Traversals, Height, Count, Sum & Diameter"
+git commit -m "Implement subtree check and top view of binary tree"
 git push
 pause
