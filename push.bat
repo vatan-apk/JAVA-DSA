@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit -m "Implement subtree check and top view of binary tree"
+git commit -m "Implement of Kth level of nodes and Lowest common Ancestor"
 git push
 pause
