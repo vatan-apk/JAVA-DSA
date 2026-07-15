@@ -219,6 +219,54 @@ public static void topView(Node root){
     }
 }
 
+// Kth Level of a tree
+public static void KLevel(Node root,int level,int k){
+    if(root == null){
+    return;
+    }
+    if(level==k){
+        System.out.print(root.data+" ");
+        return;
+    }
+    KLevel(root.left, level+1, k);
+    KLevel(root.right, level+1, k);
+}
+
+//Lowest common Ancestor 
+
+public static boolean getPath(Node root,int n,ArrayList<Node> path){
+
+if(root == null){
+    return false;
+}
+path.add(root);
+if(root.data==n){
+    return true;
+}
+boolean foundLeft =  getPath(root.left, n, path);
+boolean foundRight = getPath(root.right, n, path);
+if(foundLeft || foundRight){
+    return true;
+}
+path.remove(path.size()-1);
+return false;
+}
+
+public static Node lca(Node root,int n1,int n2){
+ArrayList<Node> path1 = new ArrayList<>();
+ArrayList<Node> path2 = new ArrayList<>();
+
+getPath(root,n1,path1);
+getPath(root,n2,path2);
+int i=0;
+for(;i<path1.size() && i<path2.size();i++){
+    if(path1.get(i) != path2.get(i)){
+        break;
+    }
+}
+Node lca = path1.get(i-1);
+return lca;
+}
 
 public static void main(String[] args) {
             //    1
@@ -234,7 +282,7 @@ public static void main(String[] args) {
             root.right.left= new Node(6);
             root.right.right = new Node(7);
 
-topView(root);
+//topView(root);
                     //     2
                     //    /  \
                     //   4    5
@@ -243,6 +291,9 @@ topView(root);
         //     subNode.left = new Node(6);
         //    // subNode.right = new Node(5); 
         //     System.out.println(isSubtree(root,subNode));
+
+ int n1 = 4, n2 = 5;
+ System.out.print(lca(root,n1,n2).data+" ");
 } 
 
 
