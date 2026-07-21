@@ -1,1 +1,1 @@
-root
+        preorder(root.left);
