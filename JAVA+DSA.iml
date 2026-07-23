@@ -3,17 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Leet&amp;Chef" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Loops" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Practice" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/basic" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/basic.java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/if-else" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/switch-case" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
