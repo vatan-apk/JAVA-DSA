@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit -m " AVL tree and Merge 2 BST"
+git commit -m " Heap Trees and Inserting"
 git push
 pause
