@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit -m " Heap Trees Question solving"
+git commit -m "Learned total Hashing"
 git push
 pause

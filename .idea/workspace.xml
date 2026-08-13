@@ -8,6 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc5d9ef-2826-48a8-a3b0-847e4499db62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Hashing/HashMapImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/LinkedHashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashing/basic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hashing/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_DSA/src/DSA-Practice/Searching/search.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_DSA/src/DSA-Practice/Searching/search.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +25,13 @@
       <entry key="_C:/Users/VATAN KUMAR PATHAK/Desktop/JAVA+DSA" value="34vKnhkjSEsCiTDoEm7eRnpP9p6" />
     </persistenceIdMap>
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="7cc113a6-ecf8-4343-86ce-66e2c5c549a6" value="" />
+    </colors>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="486" />
+    <option name="cachedIndexableFilesCount" value="515" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,61 +65,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000001312152957" />
-      <entry key="S2" value="1.0324506873347028" />
-      <entry key="S5" value="1.491458128232515" />
-      <entry key="S10" value="2.34588383027782" />
-      <entry key="S30" value="3.8791240500752577" />
-      <entry key="S60" value="6.183424289715352" />
-      <entry key="M2" value="13.239864320801807" />
-      <entry key="M5" value="31.508119314554015" />
-      <entry key="M10" value="51.35126425547614" />
-      <entry key="M15" value="67.2032804892814" />
-      <entry key="M30" value="105.40718053062714" />
-      <entry key="H1" value="159.3826452247809" />
-      <entry key="H2" value="248.211952645577" />
-      <entry key="H4" value="368.0038079524315" />
-      <entry key="D1" value="581.682956396942" />
-      <entry key="W1" value="637.0496084679243" />
+      <entry key="MS100" value="1.9445164181549705E-36" />
+      <entry key="MS500" value="7.207129453619492E-8" />
+      <entry key="S2" value="0.01638477872764072" />
+      <entry key="S5" value="0.19309731379514955" />
+      <entry key="S10" value="0.43942839438887416" />
+      <entry key="S30" value="0.7603800652697815" />
+      <entry key="S60" value="0.9132991913102014" />
+      <entry key="M2" value="2.0867363431389" />
+      <entry key="M5" value="11.96646620168282" />
+      <entry key="M10" value="26.43369327335587" />
+      <entry key="M15" value="36.9456365439757" />
+      <entry key="M30" value="66.8326814060832" />
+      <entry key="H1" value="128.42466514243537" />
+      <entry key="H2" value="235.23473568247167" />
+      <entry key="H4" value="382.75570572642715" />
+      <entry key="D1" value="670.7744667274115" />
+      <entry key="W1" value="750.4720486098852" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.867036980814309E-208" />
-      <entry key="S2" value="1.485306773312468E-52" />
-      <entry key="S5" value="1.8566347344197445E-21" />
-      <entry key="S10" value="4.309394754409207E-11" />
-      <entry key="S30" value="3.68870696529906E-4" />
-      <entry key="S60" value="0.024340617956708173" />
-      <entry key="M2" value="0.28516411368069267" />
-      <entry key="M5" value="2.0333551380858355" />
-      <entry key="M10" value="5.118107967803969" />
-      <entry key="M15" value="7.875107238707721" />
-      <entry key="M30" value="14.27651607254648" />
-      <entry key="H1" value="22.133843529594024" />
-      <entry key="H2" value="30.910604860523136" />
-      <entry key="H4" value="38.88562154991553" />
-      <entry key="D1" value="49.30317699699463" />
-      <entry key="W1" value="51.59948687054116" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000768" />
+      <entry key="S30" value="1.000067167669468" />
+      <entry key="S60" value="1.0137680964520168" />
+      <entry key="M2" value="1.260561991150916" />
+      <entry key="M5" value="3.0694491074534964" />
+      <entry key="M10" value="5.594428343665509" />
+      <entry key="M15" value="7.438364388792265" />
+      <entry key="M30" value="12.915825512921431" />
+      <entry key="H1" value="23.729021315542635" />
+      <entry key="H2" value="38.70952919151716" />
+      <entry key="H4" value="53.54399910307998" />
+      <entry key="D1" value="74.35559136879259" />
+      <entry key="W1" value="79.15514890210756" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.5509525579383053" />
-      <entry key="MS500" value="0.8876114625615665" />
-      <entry key="S2" value="1.0024351293618965" />
-      <entry key="S5" value="1.4758316150898338" />
-      <entry key="S10" value="2.335180607470557" />
-      <entry key="S30" value="3.8698525445083956" />
-      <entry key="S60" value="6.171569833576723" />
-      <entry key="M2" value="13.447582355316388" />
-      <entry key="M5" value="33.445391848526135" />
-      <entry key="M10" value="56.38571699497745" />
-      <entry key="M15" value="75.00516224392085" />
-      <entry key="M30" value="119.62895486496554" />
-      <entry key="H1" value="181.478772873922" />
-      <entry key="H2" value="279.0980562780467" />
-      <entry key="H4" value="406.87458128677287" />
-      <entry key="D1" value="630.9830781558009" />
-      <entry key="W1" value="688.648640248526" />
+      <entry key="MS100" value="2.5985600157552746E-4" />
+      <entry key="MS500" value="0.1918432745826646" />
+      <entry key="S2" value="0.6724061753826246" />
+      <entry key="S5" value="1.0099748020173966" />
+      <entry key="S10" value="1.3234681873488212" />
+      <entry key="S30" value="1.7115014758671931" />
+      <entry key="S60" value="1.899942046372993" />
+      <entry key="M2" value="3.3230851975441906" />
+      <entry key="M5" value="14.993049158347587" />
+      <entry key="M10" value="31.98366883810065" />
+      <entry key="M15" value="44.34332570389299" />
+      <entry key="M30" value="79.71194916580136" />
+      <entry key="H1" value="152.11975557035302" />
+      <entry key="H2" value="273.91679010549916" />
+      <entry key="H4" value="436.28085146317284" />
+      <entry key="D1" value="745.1257214207697" />
+      <entry key="W1" value="829.6265384656634" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -143,9 +153,13 @@
     "Application.BS.executor": "Run",
     "Application.BST2.executor": "Run",
     "Application.Binary_to_Decimal.executor": "Run",
+    "Application.HashMap.executor": "Run",
     "Application.Heap.executor": "Run",
     "Application.Heap2.executor": "Run",
+    "Application.LinkedHashMaps.executor": "Run",
     "Application.Lonely.executor": "Run",
+    "Application.basic.executor": "Run",
+    "Application.basic2.executor": "Run",
     "Application.count_num.executor": "Run",
     "Application.squarepattern.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -173,6 +187,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation",
     "to.speed.mode.migration.done": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -183,7 +202,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Heap2">
+  <component name="RunManager" selected="Application.LinkedHashMaps">
+    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.HashMapImplementation.HashMap" />
+      <module name="JAVA+DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.Heap" />
       <module name="JAVA+DSA" />
@@ -197,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heap2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Heap2" />
+    <configuration name="LinkedHashMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.LinkedHashMaps" />
       <module name="JAVA+DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,6 +244,32 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="JAVA+DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.basic" />
+      <module name="JAVA+DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashing.basic2" />
+      <module name="JAVA+DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,7 +287,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heap2" />
+        <item itemvalue="Application.LinkedHashMaps" />
+        <item itemvalue="Application.HashMap" />
+        <item itemvalue="Application.basic2" />
+        <item itemvalue="Application.basic" />
         <item itemvalue="Application.Heap" />
       </list>
     </recent_temporary>
