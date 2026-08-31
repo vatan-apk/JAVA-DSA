@@ -1,5 +1,5 @@
 @echo off
 git add .
-git commit -m "Learned total tries"
+git commit -m "Graph Learning"
 git push
 pause

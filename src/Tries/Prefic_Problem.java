@@ -57,16 +57,36 @@ public class Prefic_Problem {
         return true;
     }
 
+    public static int countNodes(Node root){
+        if(root == null){
+            return 0;
+        }
+        int count =0;
+        for(int i=0;i<26;i++){
+            if(root.children[i]!=null){
+                count+=1;
+                count += countNodes(root.children[i]);
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         String[] arr = {"zebra", "dog", "duck", "dove"};
-        for (String word : arr) {
-            insert(word);
+        String str = "ababa";
+        // for (String word : arr) {
+        //     insert(word);
+        // }
+        for(int i=0;i<str.length();i++){
+            String suffix = str.substring(i);
+            insert(suffix);
         }
 
-        System.out.println("search(\"dog\") = " + search("dog"));
-        System.out.println("search(\"do\") = " + search("do"));
-        System.out.println("startsWith(\"do\") = " + startsWith("do"));
-        System.out.println("startsWith(\"cat\") = " + startsWith("cat"));
+
+        // System.out.println("search(\"dog\") = " + search("dog"));
+        // System.out.println("search(\"do\") = " + search("do"));
+        // System.out.println("startsWith(\"do\") = " + startsWith("do"));
+        // System.out.println("startsWith(\"cat\") = " + startsWith("cat"));
 
         // Dry run for startsWith("do")
         // Trie contains: zebra, dog, duck, dove

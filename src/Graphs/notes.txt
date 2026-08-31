@@ -1,0 +1,61 @@
+Types of Edges in a Graph
+=========================
+
+1. Undirected Edge
+   - An edge without direction.
+   - Connection works both ways.
+   - Example: A -- B
+
+2. Directed Edge
+   - An edge with a specific direction.
+   - Connection works from source to destination only.
+   - Example: A -> B
+
+3. Weighted Edge
+   - An edge with a value or cost.
+   - Example: A --5-- B
+
+4. Unweighted Edge
+   - An edge without any cost or value.
+
+5. Self-Loop
+   - An edge that connects a vertex to itself.
+   - Example: A -> A
+
+6. Parallel Edges
+   - Multiple edges connecting the same pair of vertices.
+
+7. Simple Edge
+   - An edge connecting two different vertices.
+   - It does not form a self-loop.
+
+8. Adjacent Edges
+   - Two edges sharing a common vertex.
+
+9. Bridge (Cut Edge)
+   - An edge whose removal increases the number of connected components.
+
+10. Tree Edge
+    - An edge used to discover a new vertex during DFS or BFS.
+
+11. Back Edge
+    - A DFS edge connecting a vertex to one of its ancestors.
+    - It indicates a cycle in a directed graph.
+
+12. Forward Edge
+    - A directed DFS edge from a vertex to its descendant,
+      but it is not a tree edge.
+
+13. Cross Edge
+    - A directed DFS edge connecting vertices that are not
+      ancestors or descendants of each other.
+
+14. Incoming Edge
+    - An edge entering a vertex.
+
+15. Outgoing Edge
+    - An edge leaving a vertex.
+
+Important:
+- In an undirected graph, every edge is considered both incoming and outgoing.
+- In a simple graph, self-loops and parallel edges are not allowed.

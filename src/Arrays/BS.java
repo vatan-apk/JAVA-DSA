@@ -50,7 +50,7 @@ public static int LowerBound(int key,int[] arr){
 
 
 public static int UpperBound(int key,int[] arr){
-    int ans = arr.length-1;
+    int ans = arr.length;
     int lower = 0;
     int higher = arr.length-1;
     while(lower<=higher){ 
