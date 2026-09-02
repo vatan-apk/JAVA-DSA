@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Cyclic_Detection{
+public class Cyclic_Detection_Undirected{
     static class Edge{
         int src;
         int dest;
